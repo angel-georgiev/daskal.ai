@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+<clipPath id="brainL"><circle cx="420" cy="250" r="125"/><circle cx="290" cy="330" r="125"/><circle cx="222" cy="480" r="115"/><circle cx="238" cy="635" r="120"/><circle cx="310" cy="765" r="118"/><circle cx="432" cy="815" r="105"/><circle cx="380" cy="520" r="210"/><circle cx="450" cy="420" r="150"/><circle cx="440" cy="650" r="150"/></clipPath>
+<clipPath id="brainR"><circle cx="604" cy="250" r="125"/><circle cx="734" cy="330" r="125"/><circle cx="802" cy="480" r="115"/><circle cx="786" cy="635" r="120"/><circle cx="714" cy="765" r="118"/><circle cx="592" cy="815" r="105"/><circle cx="644" cy="520" r="210"/><circle cx="574" cy="420" r="150"/><circle cx="584" cy="650" r="150"/></clipPath>
+<clipPath id="halfL"><rect x="0" y="0" width="498" height="1024"/></clipPath>
+<clipPath id="halfR"><rect x="526" y="0" width="498" height="1024"/></clipPath>
+</defs>
+<rect width="1024" height="1024" rx="224" fill="#F6F1E7"/>
+<g clip-path="url(#halfL)"><g clip-path="url(#brainL)">
+<rect width="1024" height="1024" fill="#F39AB0"/>
+<g fill="none" stroke="#C94B70" stroke-width="24" stroke-linecap="round"><path d="M354 226 A70 70 0 0 1 455 189"/><path d="M224 354 A70 70 0 0 1 290 260"/><path d="M191 534 A62 62 0 0 1 191 426"/><path d="M215 697 A66 66 0 0 1 187 593"/><path d="M310 829 A64 64 0 0 1 247 754"/><path d="M474 850 A55 55 0 0 1 384 842"/><path d="M500 330 C 460 320 450 370 410 360 C 370 350 370 400 330 400"/>
+<path d="M500 470 C 455 455 445 510 400 500 C 355 490 345 540 300 535"/>
+<path d="M500 600 C 460 590 450 640 405 630 C 365 620 355 670 320 665"/>
+<path d="M500 730 C 470 725 460 760 430 755"/></g>
+</g></g>
+<g clip-path="url(#halfR)"><g clip-path="url(#brainR)">
+<rect width="1024" height="1024" fill="#1D3557"/>
+<g fill="none" stroke="#5EE0EE" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"><path d="M524 230 H 600 L 650 280 H 720"/>
+<path d="M524 340 H 640 L 690 390 H 820"/>
+<path d="M524 460 H 600 L 650 510 H 700"/>
+<path d="M600 460 V 400"/>
+<path d="M524 580 H 700 L 750 630 H 830"/>
+<path d="M524 700 H 620 L 670 750 H 740"/>
+<path d="M524 820 H 590 L 630 780"/></g>
+<g fill="#5EE0EE"><circle cx="720" cy="280" r="24"/><circle cx="700" cy="510" r="24"/><circle cx="600" cy="395" r="24"/><circle cx="740" cy="750" r="24"/><circle cx="630" cy="780" r="24"/><circle cx="820" cy="390" r="24"/><circle cx="830" cy="630" r="24"/></g>
+</g></g>
+</svg>
