@@ -1,0 +1,16 @@
+{
+  "name": "daskal-ai",
+  "owner": {
+    "name": "Angel Georgiev"
+  },
+  "metadata": {
+    "description": "daskal.AI – помощник на българския учител."
+  },
+  "plugins": [
+    {
+      "name": "daskal",
+      "source": "./daskal",
+      "description": "Годишни разпределения, уроци, контролни, дейности и процедурни въпроси по учебните програми на МОН и нормативната уредба."
+    }
+  ]
+}
