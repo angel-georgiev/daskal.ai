@@ -214,6 +214,7 @@ daskal/                      същото съдържание, разархив
 └── .claude-plugin/plugin.json
 .claude-plugin/marketplace.json   позволява инсталиране като плъгин направо оттук
 tools/build-zip.sh                пресъздава архива от папката daskal/
+LICENSE                           лиценз MIT
 ```
 
 ## За поддръжка (поне веднъж годишно)
@@ -221,6 +222,10 @@ tools/build-zip.sh                пресъздава архива от пап�
 1. Провери програмите на [mon.bg](https://www.mon.bg) и законите в [lex.bg](https://lex.bg); обнови файловете в `daskal/references/`.
 2. Вдигни `version` в `daskal/.claude-plugin/plugin.json`.
 3. Пусни `tools/build-zip.sh`, за да обновиш `download/daskal.zip`.
+
+## Лиценз
+
+[MIT](LICENSE) — свободно използвай, споделяй и променяй, включително в училището си. Нормативните текстове са официални актове и не са обект на авторско право (чл. 4 ЗАПСП).
 
 ---
 
