@@ -65,13 +65,7 @@
 
 Пълен адрес: `https://lex.bg/bg/laws/ldoc/<номер>`. От средата на асистента lex.bg обикновено не се отваря.
 
-**Пълните текстове са в скила:** `references/zakon-<ключ>.txt`. Те са консолидирани към 12.11.2026, като за ключ се ползва името на файла. Не ги чети изцяло, защото са големи (до 1 MB). Търси точния член със скрипта:
-```bash
-python <skill-dir>/scripts/find_law.py N11_ocenyavane 12        # чл. 12 от Наредба 11
-python <skill-dir>/scripts/find_law.py ZPUO "мобилни"           # членове, които съдържат думата
-python <skill-dir>/scripts/find_law.py all "тематично разпределение"   # търсене във всички документи
-python <skill-dir>/scripts/find_law.py list                     # ключове и последно изменение
-```
+**Пълните текстове са в скила:** `references/zakon-<ключ>.txt`. Те са консолидирани към 12.11.2026, като за ключ се ползва името на файла. Не ги чети изцяло, защото са големи (до 1 MB). Търси точния член с инструмента на средата, както е описано в раздел „Инструменти“ на `SKILL.md`: членовете започват на нов ред с `Чл. <номер>.`, а параграфите на преходните и заключителните разпоредби с `§ <номер>.`. Последното изменение е най-накрая на реда „Обн. ДВ…“ в началото на файла. Таблицата по-горе също го дава.
 Ключове: ZPUO, N05_obshtoobrazovatelna, N04_ucheben_plan, N11_ocenyavane, N07_profilirana, N10-2016_organizacia_UO, Priobshtavashto, N05-2016_preduchilishtno, N15_statut_uchiteli, N08_dokumenti, N13_grazhdansko, N06_BEL, N10-2017_uchebnici, N09_institucii, Finansirane, N04-2017_normirane_truda, N24_fizicheska_sreda, N18_inspektirane, Kvalifikacia_uchitel, N01-2020_izpiti_PK, N01-2015_dualno, N02-2014_validirane, N03-2017_mezhdunarodna_zakrila, N01-2017_transport, Turisticheski_putuvania, N-2-2025_zdravni_kabineti, N10-2014_sedmichni_razpisania, N16_konkurs_direktor, N04_dokumenti_trudov_dogovor, Kodeks_na_truda, ZZD_zakrila_deteto, ZZLD_lichni_danni, ZZDiskr, ZDOI, ZDS_darzhavna_sobstvenost, ZOP, Zakon_protivodeistvie_korupcia, ZPOO.
 
 Резюметата в този файл са бързият път. Използвай пълния текст, когато учителят пита за конкретен член, когато цитираш дословно или когато въпросът не е покрит от резюметата (например туристически пътувания, заплащане на труда, кариерно развитие). В текста на Наредба 4 таблиците с учебните планове са загубили структурата си. За часовете използвай таблиците в § 3 на този файл.
@@ -359,7 +353,7 @@ python <skill-dir>/scripts/find_law.py list                     # ключове
 # Част В – Учебни програми: PDF индекс
 
 
-> Обикновено първо използвай тематичната карта (`references/tematichna-karta.md`, `scripts/find_topic.py`). Този файл е пълният PDF индекс, включително чуждите езици и ФВС, които картата не покрива, и указания за четене на PDF. Използвай го, когато картата не стига.
+> Обикновено първо използвай тематичната карта (`references/tematichna-karta.md`). Този файл е пълният PDF индекс, включително чуждите езици и ФВС, които картата не покрива, и указания за четене на PDF. Използвай го, когато картата не стига.
 
 Индексът е събран на 12.11.2026 от страницата на МОН „Учебни програми за общообразователна подготовка“. Повечето програми са във версията от ноември 2023 г. За XI–XII клас програмите са от 2018 г. Изключенията са отбелязани.
 
