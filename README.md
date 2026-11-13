@@ -46,11 +46,11 @@
 1. Отвори [claude.ai](https://claude.ai) или desktop приложението на компютър.
 2. В страничното меню отвори **Plugins**. В по-старите версии пътят е **Customize → Plugins**.
 3. Натисни **Add → Upload plugin** и избери `daskal.zip`.
-4. В нов разговор напиши `/`. В списъка трябва да има **daskal** (Даскал AI).
+4. В нов разговор напиши `/`. В списъка трябва да има **daskal** (Daskal AI).
 
 Плъгинът се записва в акаунта ти и работи и в мобилното приложение на Claude.
 
-За да получаваш новите версии автоматично, на стъпка 3 избери **Add → Add marketplace**, въведи `angel-georgiev/daskal.ai`, добави **Даскал AI** и включи **Sync automatically**.
+За да получаваш новите версии автоматично, на стъпка 3 избери **Add → Add marketplace**, въведи `angel-georgiev/daskal.ai`, добави **Daskal AI** и включи **Sync automatically**.
 
 Ако Claude не вижда плъгина, отвори **Settings → Capabilities** и включи **Code execution and file creation** (в новия изглед: **Create and edit files**).
 
